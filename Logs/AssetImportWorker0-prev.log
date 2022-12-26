@@ -1,0 +1,805 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/raniamounir/Desktop/Repos/GameDev/Expressionism
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49615
+Successfully changed project path to: /Users/raniamounir/Desktop/Repos/GameDev/Expressionism
+/Users/raniamounir/Desktop/Repos/GameDev/Expressionism
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 159.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56738
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003648 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 172.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2543ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1949ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (376ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (172ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (352ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3973ms)
+		BeginReloadAssembly (496ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (57ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (169ms)
+		EndReloadAssembly (3023ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1860ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (128ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (1345ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (97.1 KB). Loaded Objects now: 3842.
+Memory consumption went from 232.5 MB to 232.4 MB.
+Total: 4.360334 ms (FindLiveObjects: 0.243833 ms CreateObjectMapping: 0.126750 ms MarkObjects: 3.764375 ms  DeleteObjects: 0.223917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3415.639975 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor Displacement.png
+  artifactKey: Guid(fcdb69f2eb5a1b149a3d765c07b7beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor Displacement.png using Guid(fcdb69f2eb5a1b149a3d765c07b7beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32c242c109d82f92d72c9a6c8d4483f') in 0.996682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005786 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Picture Frame
+  artifactKey: Guid(c7b7c2b3ce86b0c49956a238b2e747a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Picture Frame using Guid(c7b7c2b3ce86b0c49956a238b2e747a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ec030ee2473fa48168667bfdb2e6c7') in 0.000854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002701 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue Normal.png
+  artifactKey: Guid(e62864061a803b9498d4c33eb8cc547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue Normal.png using Guid(e62864061a803b9498d4c33eb8cc547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee13864f1c97b3ee45733f00e837de5c') in 0.100279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor  Albedo.png
+  artifactKey: Guid(4617e1da09d5d964787f00e6bcb20788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor  Albedo.png using Guid(4617e1da09d5d964787f00e6bcb20788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6955e80eb9b20aa5e04e2130e38871a') in 0.012506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue AlbedoTransparency.png
+  artifactKey: Guid(73a28b7123c065a479f4114a0514b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue AlbedoTransparency.png using Guid(73a28b7123c065a479f4114a0514b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a58866bbe48de97a618c2a5cadc2c9') in 0.015077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003475 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old
+  artifactKey: Guid(0e32632e538dcce4d9af49692c977b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old using Guid(0e32632e538dcce4d9af49692c977b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc2858602be24d64bfbeddb59467ffa') in 0.000619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008829 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials/Nefertiti Statue AlbedoTransparency.mat
+  artifactKey: Guid(929284347442a4e5e89bd5a61921e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials/Nefertiti Statue AlbedoTransparency.mat using Guid(929284347442a4e5e89bd5a61921e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc80381ed2f3bce153ee7c77bfda6bb') in 1.014745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002710 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 3.png
+  artifactKey: Guid(6766d11858d63a6469069a38d265b76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 3.png using Guid(6766d11858d63a6469069a38d265b76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e644b9dfb9dc69b7d7486873692446') in 0.010911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002169 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 7.png
+  artifactKey: Guid(94cc9abd99cfa4a40b54185c5345c7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 7.png using Guid(94cc9abd99cfa4a40b54185c5345c7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b901150aa839ebeef87fabfc3922c7') in 0.009923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor AmbientOcclusion.png
+  artifactKey: Guid(a19ca3f01ec4fdd4cad965352653ee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor AmbientOcclusion.png using Guid(a19ca3f01ec4fdd4cad965352653ee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a568a7959f9b34453b6121e282125c4') in 0.011052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013745 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 14.png
+  artifactKey: Guid(0e286dbcbcec26f46825cb98eb8008c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 14.png using Guid(0e286dbcbcec26f46825cb98eb8008c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586370ccdb33b829124fa810d3efd0eb') in 0.010017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008439 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 9.png
+  artifactKey: Guid(109f0484bcd417a4fb8f5b510599bcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 9.png using Guid(109f0484bcd417a4fb8f5b510599bcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e73ca50f773f6c8ef5c21d5b3fb813b') in 0.010911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004727 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Post
+  artifactKey: Guid(00dae9a4effe0994787acf8e99b85569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Post using Guid(00dae9a4effe0994787acf8e99b85569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495205945bd8157469155fcd937e6479') in 0.000777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Moai Statue/Materials/Moai Statue MetallicSmoothness.mat
+  artifactKey: Guid(6f500cdea604946d8bd65b6b995ff01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Moai Statue/Materials/Moai Statue MetallicSmoothness.mat using Guid(6f500cdea604946d8bd65b6b995ff01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1120eaf1162cdd93fdb5c3f728b340') in 0.021396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004523 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Plaster/Plaster Normal.png
+  artifactKey: Guid(0667683f3cced7b469f0303c5c4c10db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Plaster/Plaster Normal.png using Guid(0667683f3cced7b469f0303c5c4c10db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0204441f6af55e9f42c732533fd6f4') in 0.015069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue MetallicSmoothness.png
+  artifactKey: Guid(b5efcfeb6ff544844ad71162b3b14031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue MetallicSmoothness.png using Guid(b5efcfeb6ff544844ad71162b3b14031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5636f43c79bdeba8e8702ec97e10251') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials/Nefertiti Statue MetallicSmoothness.mat
+  artifactKey: Guid(08abe6af973104260a78b2f08d0e8e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials/Nefertiti Statue MetallicSmoothness.mat using Guid(08abe6af973104260a78b2f08d0e8e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992c711dbfda913a6007e247d03ff701') in 0.014935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002480 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue
+  artifactKey: Guid(459d3b220c40461478ff6ca024e5ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue using Guid(459d3b220c40461478ff6ca024e5ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041de356e06e8c11c14c0d08a90a3705') in 0.000752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005440 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue AlbedoTransparency.mat
+  artifactKey: Guid(2812cc0ba7ac24e01a37ea0a9bcfc2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue AlbedoTransparency.mat using Guid(2812cc0ba7ac24e01a37ea0a9bcfc2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e091fcbff14910e9179f9680a1589d') in 0.013589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012107 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 4.png
+  artifactKey: Guid(37bb8542284852e4a805546270e479c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 4.png using Guid(37bb8542284852e4a805546270e479c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f5e0bff14943a31f3c718aeb1b9650') in 0.009940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Moai Statue
+  artifactKey: Guid(f7ae6d00ebe66b94b9eb6d652bfb2692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Moai Statue using Guid(f7ae6d00ebe66b94b9eb6d652bfb2692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959d8907b0e98ef53a8998fcec2b9a10') in 0.000629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue
+  artifactKey: Guid(3b4905c33dedf614f855c64bd69dd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue using Guid(3b4905c33dedf614f855c64bd69dd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa288924bae15b18f2295c7a1f38a1f') in 0.000717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Attalus Statue/Materials/Attalus Statue MetallicSmoothness.mat
+  artifactKey: Guid(1c784144b3b984d9abeb72e8df8e2c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Attalus Statue/Materials/Attalus Statue MetallicSmoothness.mat using Guid(1c784144b3b984d9abeb72e8df8e2c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ab2ec2d7651f790c8e937f1b9ad7dd') in 0.015267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Moai Statue/Materials
+  artifactKey: Guid(b7a46636747dd4445b3a4fe0f29575c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Moai Statue/Materials using Guid(b7a46636747dd4445b3a4fe0f29575c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86d24e0b8918ec37f015f9d7c619bd8') in 0.000759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003770 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Display cases/Materials/Info.mat
+  artifactKey: Guid(4bfd21a9be4ea468f9026dac2cddfefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Display cases/Materials/Info.mat using Guid(4bfd21a9be4ea468f9026dac2cddfefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f95540f5c35f5b314ab1899167a7ac') in 0.011301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004598 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Anubis Statue
+  artifactKey: Guid(1a9b0ca7ee659734494c938fad7ae318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Anubis Statue using Guid(1a9b0ca7ee659734494c938fad7ae318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78bcb21c300bb39b996e17d1309a632') in 0.000689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004782 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue Normal.mat
+  artifactKey: Guid(fc671abc3d6c04163904d07e3a64cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue Normal.mat using Guid(fc671abc3d6c04163904d07e3a64cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a2883bb5d206576dff678c68925bf9') in 0.015178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007711 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue AO.mat
+  artifactKey: Guid(0d376a86dfaaa441ba1541df19c4d90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue AO.mat using Guid(0d376a86dfaaa441ba1541df19c4d90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26dfa848877a2afc4488518e52e5f3b') in 0.013268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials
+  artifactKey: Guid(ce833847d56884f8ea63feb11f182c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials using Guid(ce833847d56884f8ea63feb11f182c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fddc443fa9c67b566de47e3327200a6') in 0.000660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002672 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue AlbedoTransparency.mat
+  artifactKey: Guid(9557122e43b6b4f50a91572b36f7305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue AlbedoTransparency.mat using Guid(9557122e43b6b4f50a91572b36f7305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a5232bb89c464046b0bd86cc29d182') in 0.013295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003810 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 8.png
+  artifactKey: Guid(bbb375d8c784e18429709416b0c21c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 8.png using Guid(bbb375d8c784e18429709416b0c21c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773a53e5c1dfe4dd481cb8a19a7e30ac') in 0.009657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Kingdom Sphinx Statue
+  artifactKey: Guid(a461706482ddaea468e4fac83646a3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Kingdom Sphinx Statue using Guid(a461706482ddaea468e4fac83646a3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b50e633edc157648b87e2ed9a70b2f') in 0.000629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials
+  artifactKey: Guid(ce00c7aca41e5415abb3906179219462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials using Guid(ce00c7aca41e5415abb3906179219462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16aac4cc924f2c5b7f254d5ac81d1ada') in 0.000651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002356 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 13.png
+  artifactKey: Guid(cc79d3dee221a1b4faadf64166b53876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 13.png using Guid(cc79d3dee221a1b4faadf64166b53876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc170947a7269126605b4f73e5b3c4ee') in 0.009773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 1.png
+  artifactKey: Guid(7a02c635f16062b41ac5b54055183bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 1.png using Guid(7a02c635f16062b41ac5b54055183bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8e86c748f039af79893643b2c24f4e') in 0.010696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/HDRI
+  artifactKey: Guid(90367fc955d5ac64eb88c185c6e3788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/HDRI using Guid(90367fc955d5ac64eb88c185c6e3788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eea17117e5c99d3608904f19c7c9314') in 0.000648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016470 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 6.png
+  artifactKey: Guid(a7b0288840c348d4392c8778e9858106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 6.png using Guid(a7b0288840c348d4392c8778e9858106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf7edd795daa49e76ab3699cce6cb8f') in 0.009930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 10.png
+  artifactKey: Guid(310b31eb596bb0047876bebbd84d38c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 10.png using Guid(310b31eb596bb0047876bebbd84d38c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2be624458a120e7b31ca6d3d2e2cb30') in 0.009539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor Normal.png
+  artifactKey: Guid(cac92d7b05145464ab8bc7a2b87d3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor Normal.png using Guid(cac92d7b05145464ab8bc7a2b87d3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4dcbe15131d5952d2f0da90a8385a') in 0.012955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002381 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures
+  artifactKey: Guid(b13f626657b9f5b4091a4d5c9a62141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures using Guid(b13f626657b9f5b4091a4d5c9a62141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e19c9ef816aab9ec588135fb6a43006') in 0.000693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Attalus Statue
+  artifactKey: Guid(544ca05b7f5895c4a89539af6bb0ea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Attalus Statue using Guid(544ca05b7f5895c4a89539af6bb0ea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418a908e001e08c69fd9fef329979273') in 0.000654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001136 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 12.png
+  artifactKey: Guid(e6a6eea67c26c0c449457c0cfb397cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 12.png using Guid(e6a6eea67c26c0c449457c0cfb397cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef294774909c8f5f7e969aa1b8cacfe') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Plaster
+  artifactKey: Guid(d2b346e097290dc418b84f399ade9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Plaster using Guid(d2b346e097290dc418b84f399ade9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad234db1e4d7a4f37733b6fe9328ebe0') in 0.000616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005324 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Plaster/Plaster Albedo.png
+  artifactKey: Guid(dd62dd8112c127b48a0d4431a501df25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Plaster/Plaster Albedo.png using Guid(dd62dd8112c127b48a0d4431a501df25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3934441e0c9a36a2b5f30e6512c13258') in 0.010618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007237 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Display cases/Materials
+  artifactKey: Guid(7bd72bff4f7434b7cb8cbadee0f90cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Display cases/Materials using Guid(7bd72bff4f7434b7cb8cbadee0f90cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a154b879d25d291cb5944c26569d6877') in 0.000612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials/Nefertiti Statue AO.mat
+  artifactKey: Guid(c65b1760a2e2841ae82663c494a64c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Nefertiti Statue/Materials/Nefertiti Statue AO.mat using Guid(c65b1760a2e2841ae82663c494a64c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445856b2faca51d9e1da5cd52e6747eb') in 0.012876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue MetallicSmoothness.mat
+  artifactKey: Guid(621698c945da5495b953fa7cb3f522da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue MetallicSmoothness.mat using Guid(621698c945da5495b953fa7cb3f522da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c7604c2717182d156e868824c4aca7') in 0.014885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue Normal.mat
+  artifactKey: Guid(8443e3bfe59e044d9affd3b7560ec173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue Normal.mat using Guid(8443e3bfe59e044d9affd3b7560ec173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b25b2e629990f9f5a2bc1c4f256bdbb') in 0.015134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials
+  artifactKey: Guid(805d6aebceb044823b12e027392d9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials using Guid(805d6aebceb044823b12e027392d9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f978ea1c3043d056adc3c4cf1e7dccf0') in 0.000649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002624 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images
+  artifactKey: Guid(78b98087d93aaf141a7440ede642ebcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images using Guid(78b98087d93aaf141a7440ede642ebcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2967cc9f55666afe3ba8b86cfc0c4b66') in 0.000735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003351 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 5.png
+  artifactKey: Guid(355e5ea157a66ff44885cbf65a8ec468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 5.png using Guid(355e5ea157a66ff44885cbf65a8ec468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308b520587ffe5222e283ffd03ea432c') in 0.010276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 2.png
+  artifactKey: Guid(a59f581847fdd2147914d86a6c9366c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 2.png using Guid(a59f581847fdd2147914d86a6c9366c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474977054a93202ec936b47254b06aa1') in 0.011697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 11.png
+  artifactKey: Guid(2f9b6db032cf914459fe443e43ad7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Images/Image 11.png using Guid(2f9b6db032cf914459fe443e43ad7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d1865989e6e9d29692a5741d62b8d0') in 0.009813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue
+  artifactKey: Guid(13b0484f0eef40c4bad10d203a30df90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue using Guid(13b0484f0eef40c4bad10d203a30df90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328455dc483c4b454a2305c1e590ee7b') in 0.000649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006219 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Attalus Statue/Materials
+  artifactKey: Guid(30396fe5936204b4a808e29759358a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Attalus Statue/Materials using Guid(30396fe5936204b4a808e29759358a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6693183b1e77efe0f9aee1466a9649') in 0.000645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001024 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor Roughness.png
+  artifactKey: Guid(2bd01801f1c01c942a33d65974360c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/Wood old/Wood Floor Roughness.png using Guid(2bd01801f1c01c942a33d65974360c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5f065737990a52010bfed0ff5f7f1c') in 0.012008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000980 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Textures/HDRI/Outdoor HDRI.exr
+  artifactKey: Guid(b185a9ab23875d54f84bceee7f807d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Textures/HDRI/Outdoor HDRI.exr using Guid(b185a9ab23875d54f84bceee7f807d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4557a8f9ad3cd81dc169ef2582bbf4') in 0.714838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002050 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue MetallicSmoothness.mat
+  artifactKey: Guid(ff631a4e32fc7458d90318b7904d8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Girl Statue/Materials/Girl Statue MetallicSmoothness.mat using Guid(ff631a4e32fc7458d90318b7904d8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53de6b26b76184efdbc255865e8d2102') in 0.016891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004275 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(157131d3fef7b41d196403881c85f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(157131d3fef7b41d196403881c85f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25862d51e84e33af7f803f34fb610e17') in 1.442935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002457 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue AO.mat
+  artifactKey: Guid(5153d2286e88142119ef803ab5782ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Horus Statue/Materials/Horus Statue AO.mat using Guid(5153d2286e88142119ef803ab5782ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21010039ee8e498e89bf6afd689599e2') in 0.019580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue AO.png
+  artifactKey: Guid(6f1bb6519d5c82147aea1e5a21ff0036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK Studio Art/Art Gallery Vol.2/Models/Monkey Statue/Monkey Statue AO.png using Guid(6f1bb6519d5c82147aea1e5a21ff0036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf204789a6aa71e58d87898804ba026d') in 0.012618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 990.445323 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.149768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.224788 seconds.
+  path: Assets/collision.cs
+  artifactKey: Guid(0d0fc06c19c204254b14e051009c37e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/collision.cs using Guid(0d0fc06c19c204254b14e051009c37e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d87decd1781dabf20a02862001b1165') in 0.011568 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6716ms)
+		BeginReloadAssembly (879ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (86ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (289ms)
+		EndReloadAssembly (5205ms)
+			LoadAssemblies (398ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (979ms)
+			ReleaseScriptCaches (15ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (3129ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (348ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (325ms)
+				ProcessInitializeOnLoadAttributes (2161ms)
+				ProcessInitializeOnLoadMethodAttributes (280ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (72.9 KB). Loaded Objects now: 3893.
+Memory consumption went from 258.2 MB to 258.2 MB.
+Total: 6.134500 ms (FindLiveObjects: 0.505792 ms CreateObjectMapping: 0.248334 ms MarkObjects: 5.218625 ms  DeleteObjects: 0.160000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 333.257756 seconds.
+  path: Assets/demo.unity
+  artifactKey: Guid(a5ebd2d37c9cd4200adad900067e66cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/demo.unity using Guid(a5ebd2d37c9cd4200adad900067e66cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f75e2f6a43cbea6ec9d26cc5154cf6') in 0.065639 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4302ms)
+		BeginReloadAssembly (630ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (80ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (170ms)
+		EndReloadAssembly (3261ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (624ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (2002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (159ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (1448ms)
+				ProcessInitializeOnLoadMethodAttributes (204ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.2 KB). Loaded Objects now: 3896.
+Memory consumption went from 258.9 MB to 258.9 MB.
+Total: 4.116125 ms (FindLiveObjects: 0.228291 ms CreateObjectMapping: 0.179458 ms MarkObjects: 3.540708 ms  DeleteObjects: 0.165917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002983 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4235ms)
+		BeginReloadAssembly (493ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (67ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (3365ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (600ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (2147ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (162ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (1607ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.0 KB). Loaded Objects now: 3899.
+Memory consumption went from 259.1 MB to 259.1 MB.
+Total: 9.424750 ms (FindLiveObjects: 0.724041 ms CreateObjectMapping: 0.483875 ms MarkObjects: 7.961666 ms  DeleteObjects: 0.253125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003029 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/raniamounir/Desktop/Repos/GameDev/Expressionism/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4301ms)
+		BeginReloadAssembly (544ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (73ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (3372ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (632ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (2108ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (191ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (1515ms)
+				ProcessInitializeOnLoadMethodAttributes (213ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.0 KB). Loaded Objects now: 3902.
+Memory consumption went from 259.3 MB to 259.3 MB.
+Total: 6.253209 ms (FindLiveObjects: 0.297334 ms CreateObjectMapping: 0.587625 ms MarkObjects: 5.190167 ms  DeleteObjects: 0.176167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1073EEF7-3798-4BD1-112E-EED6B847E62E}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Downloads/VR Room/Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Shaders/Lit.shader">
+    <Files>
+      <File FileName="Assets/PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/collision.cs" Line="3" Column="8" />
+      <File FileName="../../../../Downloads/VR Room/Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Shaders/Lit.shader" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Expressionism" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5012884f-5fe8-49d2-b35b-f82cdd5b9f00" />
+</Properties>
